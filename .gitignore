@@ -1,0 +1,40 @@
+# --- Python cache & build ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# --- Environments ---
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# --- IDE & editor metadata ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- uv cache (optional manager) ---
+.uv/
+
+# --- Logs & outputs ---
+*.log
+*.out
+*.tmp
+
+# --- Data or secrets ---
+secrets/
+apikey.json
