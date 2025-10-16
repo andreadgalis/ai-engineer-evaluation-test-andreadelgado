@@ -1,0 +1,16 @@
+[project]
+name = "ai-rag-eval"
+version = "0.1.0"
+description = "Minimal RAG evaluation solution (one script per exercise)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.42.0",
+    "python-dotenv>=1.0.1",
+]
+
+[tool.uv]  # uv-specific settings (optional)
+dev-dependencies = []
+
+[tool.uv.sources]
+# No extra sources; using default PyPI
